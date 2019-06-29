@@ -1,0 +1,54 @@
+{
+  "name": "vue-extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "cross-env NODE_ENV=dev vue-cli-service build ",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-watch": "vue-cli-service build-watch"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.10.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-chrome-ext": "^0.0.5",
+    "vue-template-compiler": "^2.6.10",
+    "cross-env": "^5.1.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
